@@ -17,13 +17,20 @@ export default {
 </script>
 
 
-<style>
+<style lang="scss">
+
+   $color-grey : #555;
+   $color-white : #fff;
+   $color-grey-dark : #666;
+
   * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
   }
 
+ 
+  
   body {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.4;
@@ -32,13 +39,13 @@ export default {
   .btn {
     display: inline-block;
     border: none;
-    background: #555;
-    color: #fff;
+    background: $color-grey;
+    color: $color-white;
     padding: 7px 20px;
     cursor: pointer;
   }
 
   .btn:hover {
-    background: #666;
+    background: $color-grey-dark;
   }
 </style>
